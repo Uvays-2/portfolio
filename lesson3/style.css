@@ -1,0 +1,169 @@
+@media screen {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #6e6b6b;
+    
+}
+
+nav {
+    width: 30%;
+    height: 40px;
+    padding: 40px 100px;
+    
+    
+}
+
+.naz {
+    padding: 15px;
+    text-decoration: cornsilk;
+    color: aliceblue;
+    font-size: 20px;
+    transition: .45s ease;
+    border-radius: 12px;
+    
+}
+
+main {
+    color: chocolate;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-image: url('https://www.hdwallpapers.in/download/orange_mclaren_artura_trophy_2022_car_4k_5k_2_hd_cars-1280x720.jpg');
+}
+
+.box1 {
+    width: 100%;
+    height: 70vh;
+    background-color: #333;
+
+}
+
+
+
+
+.box2 {
+    width: 100%;
+    height: 90vh;
+    background-color: #777;
+}
+
+nav>a:hover {
+    background-color: orangered;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: orangered;
+}
+
+.H1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    text-align: center;
+    color: orangered;
+    font-size: 38px;
+}
+
+.case2 {
+    margin: 50px;
+    width: 50%;
+    display: inline-block;
+    color: aliceblue;
+}
+
+p {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+
+.img1 {
+    width: 100%;
+    height: 500px;
+    ;
+}
+
+img {
+    width: 100%;
+    height: 220px;
+}
+
+.H1 {
+    color: rgb(238, 96, 7);
+    text-align: center;
+    font-size: 70px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+}
+
+.b1 {
+    width: 400px;
+    height: 320px;
+    background-color: #777;
+    border: 3px solid orange;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.b1>img {
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.car {
+    color: rgb(238, 96, 7);
+    text-align: center;
+    font-size: 50px;
+}
+
+.a1 {
+    margin-left: 50px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.b1>a:hover {
+    background-color: orangered;
+    
+}
+.naz-2{
+    padding: 10px;
+    text-decoration:none;
+    color: rgb(2, 134, 249);
+    font-size: 15px;
+    transition: .45s ease;
+    border-radius: 12px;
+}
