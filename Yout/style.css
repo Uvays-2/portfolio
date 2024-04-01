@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo  > i{
+   margin: 10px;
+   font-size: 30px;
+}
+.logo  > p{
+    font-size: 30px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search > div{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    border-radius: 50px;
+    border: 1px solid #cccc;
+    padding: 5px 10px;
+    
+}
+.search > div > input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.search > div > i{
+    border-left: 1px solid #cccc;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.search > i{
+    background: grey;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.accaunt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.accaunt > img{
+    width: 30%;
+    border-radius: 100%;
+}
+.wrapper{
+    display: flex;
+    margin-top: 10vh;
+    
+}
+.slider{
+    height: 100vh;
+    background-color: transparent;
+    overflow: scroll;
+    width: 13%;
+    position: fixed;
+    left: 0;
+}
+
+.content{
+    width: 87%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.box-1 {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+.box-1 > div{
+    width: 30%;
+     text-align: center;
+}
+.box-1 > div > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.box-2{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.box-2 > div{
+    width: 30%;
+    text-align: center;
+}
+.box-2 > div > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.slider > div{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.slider > div > p > i{
+    margin-right: 15px;
+}
+.slider > div:hover{
+   background-color: #cccc;
+   transition: 0.5s;
+}
+.pp{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
